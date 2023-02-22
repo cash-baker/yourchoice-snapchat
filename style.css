@@ -12,5 +12,31 @@ body {
 
 .topNav-centered span {
   padding-left: 25px;
-  padding-right: 25px
+  padding-right: 25px;
+}
+
+.topNav-centered {
+font-weight: bold;
+}
+
+h1 {
+  font-family: "Calibri Light";
+  font-weight: bold;
+  color: black;
+  font-size: 65px;
+  top: 50%;
+  left: 50%;
+  transform: translate(+10%, +25%);
+}
+
+h3 {
+  top: 50%;
+  left: 50%;
+  transform: translate(+10%, +25%);
+}
+
+.body-image img {
+  position: relative;
+  top: -350px;
+  left: -100px;
 }
