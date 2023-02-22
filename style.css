@@ -1,3 +1,16 @@
 body {
   background-color: yellow;
 }
+.topNav-centered ul {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.topNav-centered span {
+  padding-left: 25px;
+  padding-right: 25px
+}
